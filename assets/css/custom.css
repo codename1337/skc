@@ -10,3 +10,14 @@
 .margin_bottom_5px{
     margin-bottom: 5%;
 }
+.image_fitscreen {
+    display: block;
+    max-width: 100%;
+    max-height: 40px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    -o-object-fit: contain;
+    object-position: top;
+    -o-object-position: top;
+}
