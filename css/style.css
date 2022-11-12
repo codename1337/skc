@@ -8378,7 +8378,7 @@ button:focus {
 .const_footer_const_logo_wrapper {
 	float: left;
 	width: 100%;
-	padding-bottom: 30px;
+	/* padding-bottom: 30px; */
 }
 .const_footer_const_logo_wrapper img {
 	display: inline-block;

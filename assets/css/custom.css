@@ -12,12 +12,16 @@
 }
 .image_fitscreen {
     display: block;
-    max-width: 100%;
-    max-height: 40px;
-    width: auto;
-    height: auto;
+    /* width: 224px; */
+    height: 140px;
     object-fit: contain;
     -o-object-fit: contain;
     object-position: top;
     -o-object-position: top;
+    position: absolute;
+    top: 0;
+}
+.image_fitscreenbottom {
+    width: 280px;
+    height: 165px;
 }
